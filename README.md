@@ -6,4 +6,11 @@ A demo project using Python and NASA data to find meteors landing site.
 
 This project requires Python 3 and the requests packages.
 
-'pyhton3 find_meteorites.py'
+First, install pipenv. Then:
+
+'''
+
+pipenv install requests
+pipenv run "python find_meteorites.py"
+
+'''
